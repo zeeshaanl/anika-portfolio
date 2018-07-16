@@ -1,0 +1,59 @@
+.App {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.c-header-container {
+    min-height: 10vh;
+}
+
+.c-video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+@media (max-width: 767px) {
+    .c-video-container {
+        height: 60vh;
+    }
+}
+
+.c-desc-container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .c-desc-container {
+        height: 30vh;
+    }
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}

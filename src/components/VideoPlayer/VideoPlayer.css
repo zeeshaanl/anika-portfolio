@@ -1,0 +1,10 @@
+.c-video-player {
+    width: 100%;
+    height: 500px;
+}
+
+/*@media (max-width: 767px) {*/
+    /*.c-video-player {*/
+        /*height: 60vh;*/
+    /*}*/
+/*}*/
