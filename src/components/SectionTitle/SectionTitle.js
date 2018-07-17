@@ -3,8 +3,11 @@ import PropTypes from 'prop-types';
 
 import './SectionTitle.css'
 
-const SectionTitle = ({ title }) =>
-    <h1 className='c-section-title'>{title}</h1>;
+const SectionTitle = ({ title, className='' }) => {
+    const classNames = `c-section-title ${className}`;
+
+    return <h1 className={classNames}>{title}</h1>;
+};
 
 SectionTitle.propTypes = {};
 SectionTitle.defaultProps = {};

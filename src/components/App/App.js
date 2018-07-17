@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Element } from 'react-scroll'
+
 import AboveFold from '../AboveFold/AboveFold.js';
 import Skills from '../Skills/Skills.js';
 
@@ -10,24 +12,33 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <section>
-                    <AboveFold />
-                    <div className='clearfix' />
-                </section>
-                <section>
-                    <Skills />
-                    <div className='clearfix' />
-                </section>
+                <Element name='film'>
+                    <section>
+                        <AboveFold />
+                        <div className='clearfix' />
+                    </section>
+                </Element>
 
-                <section>
-                    <AboutMe />
-                    <div className='clearfix' />
-                </section>
+                <Element name='skills'>
+                    <section>
+                        <Skills />
+                        <div className='clearfix' />
+                    </section>
+                </Element>
 
-                <section>
-                    <ContactMe />
-                    <div className='clearfix' />
-                </section>
+                <Element name='about'>
+                    <section>
+                        <AboutMe />
+                        <div className='clearfix' />
+                    </section>
+                </Element>
+
+                <Element name='contact'>
+                    <section>
+                        <ContactMe />
+                        <div className='clearfix' />
+                    </section>
+                </Element>
             </div>
         );
     }

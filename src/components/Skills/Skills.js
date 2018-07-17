@@ -16,16 +16,16 @@ import './Skills.css'
 
 const Skills = () =>
     <div id='skills'>
-        <SectionTitle title='Skills' />
-        <Col className='c-skills__section' mdOffset={1} sm={12} md={3}>
+        <SectionTitle className='u-skills-header' title='Skills' />
+        <Col className='c-skills__desc' xsOffset={1} sm={10} md={4}>
             <Row>
-                Lots of master's degress.<br />
-                Lifts like a beast.
-                Knows how to make a movie from scratch.
-                Experience with storyboards
+                <p>I'm a constant explorer of Adobe's programs.</p>
+                <p>I'm a master in getting master degrees (two of them already - International Relations and Far East Culture).</p>
+                <p>I have a flair for storyboarding.</p>
+                <p>Am I missing a technical skill? Just give me some time and I'll nail it.</p>
             </Row>
         </Col>
-        <Col className='c-skills__section' sm={12} md={8}>
+        <Col className='c-skills__section' xsOffset={1} sm={10} md={6}>
             <Row>
                 <div className='c-skills__list'>
                     <div><img className='c-logo' src={photoshopLogo} /></div>

@@ -2,10 +2,10 @@
     margin-bottom: 0;
     border-radius: 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .c-header {
-        margin-right: 0;
-        margin-left: 0;
+        /*margin-right: 0;*/
+        /*margin-left: 0;*/
     }
 }
 
@@ -15,6 +15,12 @@
     margin-left: 1.8em;
     /*margin: 0.7em 0 0 1em !important;*/
     /*width: auto;*/
+    transition: all 0.5s ease-in-out;
+}
+
+.c-logo-container:hover .c-profile-logo{
+    height: 26vh;
+    margin-top: 20vh;
 }
 
 .c-logo-container {
@@ -28,18 +34,19 @@
     margin-left: 1rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .c-header h3 {
         font-size: 1em;
     }
 }
 
 .navbar-right {
+    margin-right: 0.5em;
     margin-top: 2.2vh;
     color: white !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .navbar-right {
         text-align: center;
     }

@@ -4,7 +4,7 @@
     height: 100%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .c-skills__list {
         margin-top: 2em;
     }
@@ -37,4 +37,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.c-skills__desc {
+    padding-right: 1em;
+}
+
+@media(min-width: 992px) {
+    .u-skills-header {
+        margin-top: 0 !important;
+    }
 }

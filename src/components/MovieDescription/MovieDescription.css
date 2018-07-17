@@ -1,4 +1,15 @@
 .c-movie-desc {
     text-align: left;
-    padding: 1em;
+    padding: 0 1em;
+}
+@media (max-width: 991px) {
+    .c-movie-desc {
+        font-size: 0.8em;
+    }
+
+}
+
+.c-movie-desc__title {
+    font-weight: 900;
+    font-size: 1.1em;
 }
