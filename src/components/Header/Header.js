@@ -13,7 +13,7 @@ const Header = ({ className }) => {
             <Navbar.Header>
                 <Navbar.Brand>
                     <div className='c-logo-container'>
-                        <img className='c-profile-logo' src={anikaPic} />
+                        <img className='c-profile-logo' src={anikaPic} /> <h3>Anika Kowalska</h3>
                     </div>
                 </Navbar.Brand>
                 <Navbar.Toggle />
@@ -23,13 +23,13 @@ const Header = ({ className }) => {
                     <NavItem eventKey={1} href="#">
                         Latest Film
                     </NavItem>
-                    <NavItem eventKey={2} href="#">
+                    <NavItem eventKey={2} href="#skills">
                         Skills
                     </NavItem>
-                    <NavItem eventKey={2} href="#">
+                    <NavItem eventKey={2} href="#about">
                         About Me
                     </NavItem>
-                    <NavItem eventKey={2} href="#">
+                    <NavItem eventKey={2} href="#contact">
                         Contact
                     </NavItem>
                 </Nav>

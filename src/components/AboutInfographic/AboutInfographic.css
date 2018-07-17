@@ -1,0 +1,14 @@
+.c-infographic {
+    flex: 1;
+    text-align: center;
+}
+
+.c-infographic__image {
+    width: 120px;
+    height: auto;
+}
+
+.c-infographic__text {
+    display: inline-block;
+    width: 100px;
+}

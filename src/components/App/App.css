@@ -1,5 +1,4 @@
 .App {
-    text-align: center;
     font-size: 1.4em;
 }
 
@@ -56,4 +55,17 @@
 
 .App-intro {
     font-size: large;
+}
+
+section:not(:last-of-type) {
+    margin-bottom: 6.5em;
+}
+
+@media (max-width: 767px) {
+    .navbar-toggle {
+        margin-top: 15px !important;
+    }
+    section:not(:last-of-type) {
+        margin-bottom: 3.5em;
+    }
 }

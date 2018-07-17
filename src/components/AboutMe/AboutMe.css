@@ -1,0 +1,10 @@
+.c-infographic-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.c-about-me__text {
+    text-align: center;
+    margin-bottom: 3em;
+}

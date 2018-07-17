@@ -2,6 +2,12 @@
     margin-bottom: 0;
     border-radius: 0;
 }
+@media (max-width: 767px) {
+    .c-header {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
 
 .c-profile-logo {
     border-radius: 50%;
@@ -16,6 +22,17 @@
     display: flex;
     align-items: center;
 }
+.c-header h3 {
+    margin-top: 0;
+    color: white;
+    margin-left: 1rem;
+}
+
+@media (max-width: 767px) {
+    .c-header h3 {
+        font-size: 1em;
+    }
+}
 
 .navbar-right {
     margin-top: 2.2vh;
@@ -24,7 +41,7 @@
 
 @media (max-width: 767px) {
     .navbar-right {
-        /*font-size: 1.2em;*/
+        text-align: center;
     }
 }
 

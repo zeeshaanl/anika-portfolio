@@ -1,0 +1,40 @@
+.c-skills__list {
+    display: inline-block;
+    flex: 1;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .c-skills__list {
+        margin-top: 2em;
+    }
+}
+
+.c-skills__list div {
+    /*margin-bottom: 2rem;*/
+    height: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.c-language-text {
+    margin-left: 0.5em;
+}
+
+.c-logo {
+    width: 50px;
+    height: auto;
+}
+
+.c-skills__section {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.c-skills__section .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

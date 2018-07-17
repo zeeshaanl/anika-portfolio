@@ -1,0 +1,18 @@
+.c-contact {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.c-contact__element-container {
+    display: inline-block;
+    text-align: left;
+}
+
+.c-contact__element {
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+.c-contact__element svg {
+    margin-right: 0.5em;
+}
