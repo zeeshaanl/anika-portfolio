@@ -24,7 +24,6 @@ yarn-error.log*
 .env
 
 .cache/
-public
 yarn-error.log
 
 .idea/
