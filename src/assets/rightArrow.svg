@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68"
+     viewBox="0 0 68 68">
+    <defs>
+        <style>.a{fill:#fff;}.b{fill:#cb9b51;}.c{filter:url(#a);}</style>
+        <filter id="a" x="0" y="0" width="68" height="68" filterUnits="userSpaceOnUse">
+            <feOffset dy="3" />
+            <feGaussianBlur stdDeviation="3" result="b" />
+            <feFlood flood-opacity="0.161" />
+            <feComposite operator="in" in2="b" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+    </defs>
+    <g transform="translate(9 6)">
+        <g class="c" transform="matrix(1, 0, 0, 1, -9, -6)">
+            <rect class="a" width="50" height="50" rx="10" transform="translate(9 6)" />
+        </g>
+        <g transform="translate(18 17)">
+            <path class="b" d="M8,0,6.545,1.455l5.506,5.506H0V9.039H12.052L6.545,14.545,8,16l8-8Z" />
+        </g>
+    </g>
+</svg>

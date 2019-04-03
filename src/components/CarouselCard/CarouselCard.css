@@ -1,0 +1,26 @@
+.c-carousel-card {
+  margin-top: 9vh;
+  display: flex;
+  height: 91vh;
+  width: 100%;
+  align-items: center;
+}
+
+.c-carousel-card__media {
+  width: 60%
+}
+
+.c-carousel-card__description {
+  width: 40%
+}
+
+@media (max-width: 991px) {
+  .c-carousel-card {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .c-carousel-card__media, .c-carousel-card__description {
+    width: 100%;
+  }
+}

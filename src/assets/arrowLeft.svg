@@ -1,0 +1,13 @@
+<svg width="68" height="68">
+  <defs>
+    <filter id="a" width="68" height="68" x="0" y="0" filterUnits="userSpaceOnUse">
+      <feOffset dy="3"/>
+      <feGaussianBlur result="b" stdDeviation="3"/>
+      <feFlood flood-opacity=".161"/>
+      <feComposite in2="b" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="50" height="50" fill="#fff" filter="url(#a)" rx="10" transform="translate(9 6)"/>
+  <path fill="#cb9b51" d="M35 39l1.455-1.455-5.506-5.506H43v-2.078H30.948l5.507-5.506L35 23l-8 8z"/>
+</svg>
