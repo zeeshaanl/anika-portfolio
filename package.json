@@ -2,6 +2,7 @@
   "name": "anika-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://zeeshaanl.github.io/anika-portfolio",
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.10.17",
     "bootstrap": "^3.3.7",
