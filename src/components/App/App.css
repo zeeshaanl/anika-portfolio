@@ -1,86 +1,31 @@
 .App {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 .c-header-container {
-    min-height: 10vh;
-}
-
-.c-video-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-}
-
-.c-video-container, .c-desc-container {
-    margin-top: 10vh;
-}
-
-@media (max-width: 991px) {
-    .c-desc-container {
-        margin-top: 0;
-    }
-
-    .c-video-container {
-        margin-top: 7vh;
-    }
-}
-
-@media (max-width: 991px) {
-    .c-video-container {
-        height: 55vh;
-    }
-}
-
-.c-desc-container {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media (max-width: 991px) {
-    .c-desc-container {
-        height: 35vh;
-    }
+  min-height: 10vh;
 }
 
 .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 80px;
-}
-
-.App-header {
-    background-color: #222;
-    height: 150px;
-    padding: 20px;
-    color: white;
-}
-
-.App-title {
-    font-size: 1.5em;
-}
-
-.App-intro {
-    font-size: large;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 section:not(:last-of-type) {
-    margin-bottom: 6.5em;
+  margin-bottom: 6.5em;
 }
 
 @media (max-width: 991px) {
-    .navbar-toggle {
-        margin-top: 15px !important;
-    }
 
-    section:not(:last-of-type) {
-        margin-bottom: 3.5em;
-    }
+  section:not(:last-of-type) {
+    margin-bottom: 3.5em;
+  }
+
+  .App {
+    font-size: 1.2em;
+  }
+
+  .c-header-container {
+    min-height: 6vh;
+  }
 }

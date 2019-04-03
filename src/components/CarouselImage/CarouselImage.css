@@ -1,0 +1,13 @@
+.c-carousel-image-container {
+  height: 65vh;
+}
+
+.c-carousel-image {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .c-carousel-image-container {
+    height: 32vh;
+  }
+}

@@ -1,0 +1,10 @@
+.c-carousel__arrow {
+  cursor: pointer;
+  width: 50px;
+}
+
+@media (max-width: 991px) {
+  .c-carousel__arrow {
+    width: 35px;
+  }
+}

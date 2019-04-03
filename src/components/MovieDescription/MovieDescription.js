@@ -1,29 +1,32 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import './MovieDescription.css'
+import "./MovieDescription.css";
 
-const MovieDescription = () =>
-    <div className='c-movie-desc'>
-        <p>
-            <div className='c-movie-desc__title'>Ask Me</div>
-            An innocent game takes an unexpected turn.
-        </p>
-        <p>
-            Starring:<br />
-            Livia Coyle as Alice<br />
-            Martin Gardavsky as Nick<br />
-        </p>
-        <p>
-            Director & Writer: Anika Kowalska<br />
-            Edited in AVID by Anika Kowalska<br />
-        </p>
-        <p>
-            Shot at Prague Film School, part of the summer workshop 2018.
-        </p>
-    </div>;
+const MovieDescription = (props) => {
+  const { title, subTitle, duration } = props;
+  return (<div className='c-movie-desc'>
+    <h3 className='c-movie-desc__title'>{title}</h3>
 
-MovieDescription.propTypes = {};
-MovieDescription.defaultProps = {};
+    <div className='c-movie-desc__sub-title'>
+      <hr />
+      <h4>{subTitle}</h4>
+      <hr />
+    </div>
+
+    {!!duration && <div className='c-movie-desc__duration'>
+      <h4>{duration}</h4>
+    </div>
+    }
+    {props.children}
+  </div>);
+};
+
+
+MovieDescription.propTypes = {
+  title: PropTypes.string,
+  subTitle: PropTypes.string,
+  duration: PropTypes.string,
+};
 
 export default MovieDescription;

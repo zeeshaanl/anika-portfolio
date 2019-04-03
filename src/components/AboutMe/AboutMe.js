@@ -1,19 +1,18 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import AboutInfographic from '../AboutInfographic/AboutInfographic';
-import PropTypes from 'prop-types';
 import { Row, Col } from 'react-bootstrap'
 
-import eagerLearner from '../../assets/eagerLearner.png';
-import restlessTraveler from '../../assets/restlessTraveler.png';
-import bookworm from '../../assets/bookworm.png';
-import filmAddict from '../../assets/filmAddict.png';
-import fitnessFreak from '../../assets/fitnessFreak.jpg';
-import amateurPainter from '../../assets/amateurPainter.png';
+import eagerLearner from '../../assets/eagerLearner.svg';
+import restlessTraveler from '../../assets/restlessTraveler.svg';
+import bookworm from '../../assets/bookworm.svg';
+import filmAddict from '../../assets/filmAddict.svg';
+import fitnessFreak from '../../assets/fitnessFreak.svg';
+import amateurPainter from '../../assets/amateurPainter.svg';
 
 import './AboutMe.css'
 
-const AboutMe = (props) =>
+const AboutMe = () =>
     <div id='about' className='c-about-me'>
         <SectionTitle title='About Me' />
         <Col xsOffset={1} xs={10}>
@@ -22,8 +21,7 @@ const AboutMe = (props) =>
                 <p>I taught English in Taiwan, organised Language Speaking Club in Russia, finished apprenticeship in Polish Embassy
                     in Sweden and worked as an Account Manager in Germany.
                 </p>
-                <p>Now I'm changing my carrier to start doing what I love the most - filmmaking.
-                    I'm fascinated with every single step of it - pre-production, production and post-production.
+                <p>Now I'm on a career path that leads me through the creative fields of motion graphic design, UI/UX and filmmaking.
                 </p>
                 <p>Other than that I'm a....</p>
             </Row>

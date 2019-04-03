@@ -22,7 +22,7 @@ const Header = ({ className }) => {
             <Navbar.Collapse>
                 <Nav pullRight>
                     <NavItem eventKey={1} onClick={() => scrollerFunction('film')}>
-                        Latest Film
+                        Latest Work
                     </NavItem>
                     <NavItem eventKey={2} onClick={() => scrollerFunction('skills')}>
                         Skills
